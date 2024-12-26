@@ -1,88 +1,149 @@
 {
+  "toomuchfood:recipes/food/croissant": {
+    "criteria": {
+      "has_bread": "2024-12-26 07:44:18 +0000"
+    },
+    "done": true
+  },
+  "knize1007:root": {
+    "criteria": {
+      "tick": "2024-12-26 07:44:18 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/transportation/walnut_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 07:46:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-12-26 06:58:45 +0000"
-    },
-    "done": true
-  },
-  "wythers:world_explorer": {
-    "criteria": {
-      "wythers:stony_canyon": "2024-12-26 07:05:18 +0000",
-      "wythers:bayou": "2024-12-26 06:59:00 +0000",
-      "wythers:sakura_forest": "2024-12-26 07:00:45 +0000",
-      "wythers:gravelly_river": "2024-12-26 07:00:04 +0000",
-      "wythers:highland_plains": "2024-12-26 07:05:01 +0000",
-      "wythers:andesite_crags": "2024-12-26 06:59:08 +0000",
-      "wythers:underground": "2024-12-26 07:04:57 +0000",
-      "wythers:subtropical_forest": "2024-12-26 06:58:46 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "unlock_right_away": "2024-12-26 07:44:18 +0000"
     },
     "done": true
   },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "in_water": "2024-12-26 07:46:09 +0000"
     },
     "done": true
   },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "in_water": "2024-12-26 07:46:09 +0000"
     },
     "done": true
   },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "in_water": "2024-12-26 07:46:09 +0000"
     },
     "done": true
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "in_water": "2024-12-26 07:46:09 +0000"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "in_water": "2024-12-26 07:46:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
+  "toomuchfood:recipes/food/pizza": {
     "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "has_bread": "2024-12-26 07:44:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "in_water": "2024-12-26 06:58:57 +0000"
+      "in_water": "2024-12-26 07:46:09 +0000"
+    },
+    "done": true
+  },
+  "knize1007:hostilemobs": {
+    "criteria": {
+      "tick": "2024-12-26 07:44:18 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/arid_medley": {
+    "criteria": {
+      "has_bread": "2024-12-26 07:44:18 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-12-26 07:44:18 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/donut": {
+    "criteria": {
+      "has_bread": "2024-12-26 07:44:18 +0000"
+    },
+    "done": true
+  },
+  "lost_idols:lost_idols_root": {
+    "criteria": {
+      "use_moai_idol": "2024-12-26 07:47:54 +0000"
+    },
+    "done": true
+  },
+  "wythers:world_explorer": {
+    "criteria": {
+      "wythers:autumnal_flower_forest": "2024-12-26 07:48:45 +0000",
+      "wythers:tropical_rainforest": "2024-12-26 07:47:13 +0000",
+      "wythers:eucalyptus_jungle_canyon": "2024-12-26 07:46:50 +0000",
+      "wythers:snowy_tundra": "2024-12-26 07:44:19 +0000",
+      "wythers:underground": "2024-12-26 07:47:40 +0000",
+      "wythers:tropical_beach": "2024-12-26 07:47:52 +0000",
+      "wythers:tropical_forest": "2024-12-26 07:47:36 +0000",
+      "wythers:eucalyptus_jungle": "2024-12-26 07:47:09 +0000",
+      "wythers:coastal_mangroves": "2024-12-26 07:47:18 +0000"
+    },
+    "done": false
+  },
+  "bountifulfares:recipes/transportation/hoary_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 07:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 07:46:09 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2024-12-26 06:59:02 +0000",
-      "minecraft:forest": "2024-12-26 07:00:02 +0000",
-      "minecraft:ocean": "2024-12-26 06:58:59 +0000"
+      "minecraft:taiga": "2024-12-26 07:45:27 +0000",
+      "minecraft:dripstone_caves": "2024-12-26 07:46:05 +0000",
+      "minecraft:snowy_taiga": "2024-12-26 07:45:59 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+  "bountifulfares:recipes/food/forest_medley": {
     "criteria": {
-      "has_pink_petals": "2024-12-26 07:02:26 +0000"
+      "has_bread": "2024-12-26 07:44:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 07:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 07:46:09 +0000"
     },
     "done": true
   },
