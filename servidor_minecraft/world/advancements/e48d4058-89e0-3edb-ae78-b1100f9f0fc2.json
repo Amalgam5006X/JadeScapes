@@ -1,0 +1,90 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-26 06:58:45 +0000"
+    },
+    "done": true
+  },
+  "wythers:world_explorer": {
+    "criteria": {
+      "wythers:stony_canyon": "2024-12-26 07:05:18 +0000",
+      "wythers:bayou": "2024-12-26 06:59:00 +0000",
+      "wythers:sakura_forest": "2024-12-26 07:00:45 +0000",
+      "wythers:gravelly_river": "2024-12-26 07:00:04 +0000",
+      "wythers:highland_plains": "2024-12-26 07:05:01 +0000",
+      "wythers:andesite_crags": "2024-12-26 06:59:08 +0000",
+      "wythers:underground": "2024-12-26 07:04:57 +0000",
+      "wythers:subtropical_forest": "2024-12-26 06:58:46 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-26 06:58:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-12-26 06:59:02 +0000",
+      "minecraft:forest": "2024-12-26 07:00:02 +0000",
+      "minecraft:ocean": "2024-12-26 06:58:59 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-12-26 07:02:26 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}
