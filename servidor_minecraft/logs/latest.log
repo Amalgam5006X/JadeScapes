@@ -919,3 +919,4 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [06:37:45] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to 2208.500000, 155.663262, 2832.500000]
 [06:38:12] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
 [06:41:09] [Server thread/INFO]: Amalgam5006X has made the advancement [Sweet Dreams]
+[06:45:59] [Server thread/INFO]: [Amalgam5006X: The difficulty has been set to Peaceful]
