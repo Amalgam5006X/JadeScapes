@@ -1234,9 +1234,58 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-12-27 07:22:10 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/bat_wall_deco_3": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/bat_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/white_jack_o_straw_with_pumpkin": {
+    "criteria": {
+      "has_white_wool": "2024-12-27 07:27:39 +0000",
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/bat_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-12-27 07:22:10 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/cat_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/tools/empty_leather_canteen": {
+    "criteria": {
+      "has_leather": "2024-12-27 07:22:10 +0000"
     },
     "done": true
   },
@@ -1264,9 +1313,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-12-27 07:22:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_axe": "2024-12-27 06:35:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-27 07:21:45 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/happy_ghost": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -1276,9 +1343,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2024-12-27 07:27:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/veggie_stir_fry": {
+    "criteria": {
+      "has_potato": "2024-12-27 07:21:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "farmingforblockheads:recipes/decorations/chicken_nest": {
+    "criteria": {
+      "has_wheat": "2024-12-27 07:21:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-12-27 07:21:49 +0000"
     },
     "done": true
   },
@@ -1300,9 +1403,27 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/food/stone_stew": {
+    "criteria": {
+      "has_rotten_flesh": "2024-12-27 07:32:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2024-12-27 06:39:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-12-27 07:22:55 +0000"
+    },
+    "done": true
+  },
+  "1_splatus:spellbound/unlocked/windsweeper": {
+    "criteria": {
+      "blowgun": "2024-12-27 07:21:50 +0000"
     },
     "done": true
   },
@@ -1336,6 +1457,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
   "mcwroofs:recipes/jungle_planks": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:30 +0000"
@@ -1351,6 +1478,18 @@
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -1378,15 +1517,117 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/curtains": {
+    "criteria": {
+      "has_wood": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/tools/artisan_brush": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-27 07:21:45 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/single_potion": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:30:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-12-27 07:32:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
   "bountifulfares:recipes/transportation/walnut_boat": {
     "criteria": {
       "in_water": "2024-12-27 06:38:47 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2024-12-27 07:21:43 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/bountiful_stew": {
+    "criteria": {
+      "has_carrot": "2024-12-27 07:21:47 +0000"
+    },
+    "done": true
+  },
   "mcwroofs:recipes/gutters": {
     "criteria": {
       "has_planks": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/skeleton_balloon": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-12-27 07:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-12-27 07:22:10 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/gold_stuff": {
+    "criteria": {
+      "has_wood": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/laying_hay_bale": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:42 +0000"
     },
     "done": true
   },
@@ -1420,6 +1661,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "farmingforblockheads:recipes/decorations/feeding_trough": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/hay_wheelbarrow": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:42 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/magic_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:16 +0000"
@@ -1432,15 +1691,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-12-27 07:21:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-12-27 07:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-12-27 07:32:08 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/fir_boat": {
     "criteria": {
       "in_water": "2024-12-27 06:38:47 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2024-12-27 07:27:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-12-27 06:41:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-12-27 07:22:56 +0000"
     },
     "done": true
   },
@@ -1456,6 +1745,12 @@
     },
     "done": true
   },
+  "toomuchfood:recipes/food/baguette": {
+    "criteria": {
+      "has_wheat": "2024-12-27 07:21:41 +0000"
+    },
+    "done": true
+  },
   "progression_reborn:iron_gear": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
@@ -1465,6 +1760,24 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-12-27 07:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-12-27 07:27:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
     },
     "done": true
   },
@@ -1480,9 +1793,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-12-27 07:21:51 +0000"
+    },
+    "done": true
+  },
+  "farmingforblockheads:recipes/decorations/market": {
+    "criteria": {
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/meadow_medley": {
+    "criteria": {
+      "has_cooked_mutton": "2024-12-27 07:22:54 +0000"
+    },
+    "done": true
+  },
   "progression_reborn_knives:iron_knife_crafting": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/three_potions": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:30:12 +0000"
     },
     "done": true
   },
@@ -1522,9 +1871,33 @@
     },
     "done": true
   },
+  "mcwholidays:recipes/witch_hat_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/witch_hat_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/magic_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:16 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/bacon_and_eggs": {
+    "criteria": {
+      "has_porkchop": "2024-12-27 07:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2024-12-27 07:27:04 +0000"
     },
     "done": true
   },
@@ -1534,9 +1907,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-27 07:21:41 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/dead_boat": {
     "criteria": {
       "in_water": "2024-12-27 06:38:47 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/golden_apple": {
+    "criteria": {
+      "has_the_recipe": "2024-12-27 07:26:14 +0000"
     },
     "done": true
   },
@@ -1564,6 +1955,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-27 07:21:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-12-27 07:22:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2024-12-27 07:21:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-12-27 06:40:51 +0000"
@@ -1579,6 +1988,18 @@
   "bountifulfares:recipes/misc/gristmill": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_helmet": {
+    "criteria": {
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -1600,9 +2021,27 @@
     },
     "done": true
   },
+  "mcwholidays:recipes/standing_hay_bale": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2024-12-27 06:56:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/black_balloon": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -1612,9 +2051,21 @@
     },
     "done": true
   },
+  "backpacked:recipes/misc/backpack": {
+    "criteria": {
+      "has_hide": "2024-12-27 07:23:01 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/magic_sign": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-12-27 07:21:43 +0000"
     },
     "done": true
   },
@@ -1696,9 +2147,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
   "mcwholidays:recipes/chaotic_cobweb": {
     "criteria": {
       "has_planks": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-12-27 07:22:52 +0000"
     },
     "done": true
   },
@@ -1708,9 +2171,28 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/decorations/black_jack_o_straw_with_pumpkin": {
+    "criteria": {
+      "has_black_wool": "2024-12-27 07:27:39 +0000",
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/jungle_rail_bridge": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2024-12-27 07:23:01 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/tools/empty_gold_canteen": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
     },
     "done": true
   },
@@ -1720,15 +2202,39 @@
     },
     "done": true
   },
+  "mcwholidays:recipes/spider_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/spider_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
   "mcwholidays:recipes/half_cobweb": {
     "criteria": {
       "has_planks": "2024-12-27 06:35:09 +0000"
     },
     "done": true
   },
+  "toughasnails:recipes/combat/wool_boots": {
+    "criteria": {
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/hellbark_boat": {
     "criteria": {
       "in_water": "2024-12-27 06:38:47 +0000"
+    },
+    "done": true
+  },
+  "1_splatus:spellbound/unlocked/thorn_blossom": {
+    "criteria": {
+      "blowgun": "2024-12-27 07:21:41 +0000"
     },
     "done": true
   },
@@ -1786,9 +2292,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-12-27 07:22:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-12-27 07:22:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-27 07:21:45 +0000"
+    },
+    "done": true
+  },
+  "1_splatus:spellbound/unlocked/moonlight_edge": {
+    "criteria": {
+      "blowgun": "2024-12-27 07:31:58 +0000"
     },
     "done": true
   },
@@ -1810,6 +2346,24 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/tools/sun_hat": {
+    "criteria": {
+      "has_wheat": "2024-12-27 07:21:41 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/pumpkin_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/pumpkin_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/palm_boat": {
     "criteria": {
       "in_water": "2024-12-27 06:38:47 +0000"
@@ -1828,9 +2382,46 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/decorations/white_jack_o_straw_with_carved_pumpkin": {
+    "criteria": {
+      "has_white_wool": "2024-12-27 07:27:39 +0000",
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/ghost_balloon": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/cold_eye": {
+    "criteria": {
+      "cold_eye": "2024-12-27 07:31:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-27 07:21:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:30 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "cold_eye": "2024-12-27 07:31:58 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/pair_of_potions": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:30:12 +0000"
     },
     "done": true
   },
@@ -1852,9 +2443,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
   "teatime:recipes/food/tea_pot_block": {
     "criteria": {
       "has_coal": "2024-12-27 06:56:26 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/ghost_wall_deco_2": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/ghost_wall_deco_1": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-27 07:26:14 +0000"
     },
     "done": true
   },
@@ -1876,9 +2491,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
   "bountifulfares:recipes/transportation/hoary_boat": {
     "criteria": {
       "in_water": "2024-12-27 06:38:47 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/haunting_ghost": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/crusted_beef": {
+    "criteria": {
+      "has_potato": "2024-12-27 07:21:45 +0000"
     },
     "done": true
   },
@@ -1900,6 +2533,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/cobblestone_bridge_stair": {
     "criteria": {
       "has_planks": "2024-12-27 06:56:33 +0000"
@@ -1909,6 +2548,12 @@
   "mcwbridges:recipes/balustrade_cobblestone_bridge": {
     "criteria": {
       "has_planks": "2024-12-27 06:56:33 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/spider_balloon": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -1930,9 +2575,27 @@
     },
     "done": true
   },
+  "mcwwindows:recipes/bricks": {
+    "criteria": {
+      "has_wood": "2024-12-27 07:21:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-12-27 07:21:49 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/decorations/rain_collector": {
+    "criteria": {
+      "has_string": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -1942,9 +2605,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-12-27 07:22:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_axe": "2024-12-27 06:35:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-12-27 07:22:10 +0000"
     },
     "done": true
   },
@@ -1954,15 +2629,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2024-12-27 07:21:43 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/thatch": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:21:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-27 06:56:33 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-12-27 07:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
   "mcwpaths:recipes/cobblestone": {
     "criteria": {
       "has_wood": "2024-12-27 06:56:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
     },
     "done": true
   },
@@ -1990,6 +2695,19 @@
     },
     "done": true
   },
+  "mcwholidays:recipes/ghost": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/black_jack_o_straw_with_carved_pumpkin": {
+    "criteria": {
+      "has_black_wool": "2024-12-27 07:27:39 +0000",
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
   "mcwtrpdoors:recipes/jungle/jungle_blossom_trapdoor": {
     "criteria": {
       "has_plankss": "2024-12-27 06:48:30 +0000"
@@ -1999,6 +2717,18 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-12-27 06:56:33 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/golden_apple_block": {
+    "criteria": {
+      "has_golden_apple": "2024-12-27 07:31:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -2032,9 +2762,21 @@
     },
     "done": true
   },
+  "toughasnails:recipes/combat/wool_leggings": {
+    "criteria": {
+      "has_wool": "2024-12-27 07:27:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:30 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_chestplate": {
+    "criteria": {
+      "has_wool": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },
@@ -2074,6 +2816,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-27 07:26:14 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/muffin": {
+    "criteria": {
+      "has_wheat": "2024-12-27 07:21:41 +0000"
+    },
+    "done": true
+  },
   "bountifulfares:recipes/building_blocks/jungle_pickets": {
     "criteria": {
       "has_planks": "2024-12-27 06:48:30 +0000"
@@ -2083,6 +2837,12 @@
   "mcwlights:recipes/garden_light": {
     "criteria": {
       "has_wood": "2024-12-27 06:35:09 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/awning": {
+    "criteria": {
+      "has_planks": "2024-12-27 07:27:39 +0000"
     },
     "done": true
   },

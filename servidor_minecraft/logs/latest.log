@@ -928,3 +928,27 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [07:21:15] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to -3949.500000, 160.000000, -1439.500000]
 [07:21:30] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
 [07:23:22] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[07:24:30] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[07:25:23] [Server thread/INFO]: [Amalgam5006X: Set the time to 1000]
+[07:31:58] [Server thread/INFO]: Amalgam5006X has made the advancement [A Nice-y Look]
+[07:31:58] [Server thread/INFO]: Amalgam5006X has made the advancement [The Beginning of An Adventure]
+[07:33:20] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[07:33:23] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to 2208.500000, 136.000000, 2832.500000]
+[07:34:00] [Server thread/WARN]: Amalgam5006X moved too quickly! -8.969362166758856,1.3562400538921366,4.4256657628907305
+[07:35:37] [Server thread/INFO]: [Amalgam5006X: Set the time to 1000]
+[07:35:58] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[07:36:01] [Server thread/INFO]: Amalgam5006X lost connection: Disconnected
+[07:36:01] [Server thread/INFO]: Amalgam5006X left the game
+[07:36:15] [Server thread/INFO]: Stopping the server
+[07:36:15] [Server thread/INFO]: Stopping server
+[07:36:15] [Server thread/INFO]: Saving players
+[07:36:15] [Server thread/INFO]: Saving worlds
+[07:36:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:overworld
+[07:36:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:the_end
+[07:36:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:the_nether
+[07:36:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:36:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:36:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:36:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:36:16] [Server thread/INFO]: Unloading server configs...
+[07:36:16] [Server thread/INFO]: Sending config unload event for backpacked.server.toml
