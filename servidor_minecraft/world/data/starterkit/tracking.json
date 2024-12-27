@@ -1,5 +1,7 @@
 {
-  "singleplayer": {},
+  "singleplayer": {
+    "Drunken JadeScapesv2 (1)": true
+  },
   "multiplayer": {
     "e48d4058-89e0-3edb-ae78-b1100f9f0fc2": true
   }

@@ -40,7 +40,6 @@ globalExecutorParallelism = "default"
 	# 
 	# 
 	enforceSafeWorldRandomAccess = "default"
-
 [noTickViewDistance]
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
@@ -70,7 +69,6 @@ globalExecutorParallelism = "default"
 	# 
 	# 
 	maxViewDistance = "default"
-
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
 	# Mid-tick chunk tasks is to execute chunk tasks during server tick loop  
@@ -97,7 +95,6 @@ globalExecutorParallelism = "default"
 		# Please preserve quotes so this config don't break
 		# 
 		mode = "default"
-
 [ioSystem]
 	# (Default: true) Whether to use async chunk loading & unloading
 	async = "default"
@@ -134,7 +131,6 @@ globalExecutorParallelism = "default"
 	chunkDataCacheSoftLimit = "default"
 	# (Default: 32678) Hard limit for io worker nbt cache
 	chunkDataCacheLimit = "default"
-
 [threadedWorldGen]
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
@@ -149,7 +145,6 @@ globalExecutorParallelism = "default"
 	asyncScheduling = "default"
 	# (Default: false) Whether to enable this feature
 	enabled = "default"
-
 [vanillaWorldGenOptimizations]
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
 	# (may cause incompatibility with other mods)
@@ -159,4 +154,3 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	useEndBiomeCache = "default"
-

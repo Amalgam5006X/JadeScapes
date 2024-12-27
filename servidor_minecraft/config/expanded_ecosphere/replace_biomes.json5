@@ -6,7 +6,7 @@ This config is only for replacing biomes, the main Expanded Ecosphere config is 
 */
 {
 	// Enable biome replacing
-	"enableBiomes": false,
+	"enableBiomes": true,
 	/* Enter all Expanded Ecosphere biomes that should be replaced into this map.
 	   As the key put the biome you want to replace and as value the biome you want to replace it with.
 	   Here is an example:

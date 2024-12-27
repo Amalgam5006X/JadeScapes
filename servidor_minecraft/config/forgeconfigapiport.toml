@@ -14,4 +14,3 @@ recreateConfigsWhenParsingFails = true
 #This option effectively disables per world server configs, but helps a lot with avoiding user confusion.
 #Local server configs are still supported as they are on Forge when a server config file is manually copied to a world.
 forceGlobalServerConfigs = true
-

@@ -1,11 +1,8 @@
-[07:42:23] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.3
-[07:42:23] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[03:15:33] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.3
+[03:15:33] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[07:42:23] [ForkJoinPool-1-worker-3/WARN]: Mod spellbound_weapons_mr uses the version 4.0.5m which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5m'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:42:23] [main/WARN]: Warnings were found!
- - Mod 'Expanded Ecosphere' (expanded_ecosphere) 3.3.1 conflicts with any version of mod 'William Wythers' Overhauled Overworld' (wwoo), which is present with the following versions: 2.3.1!
-	 - While this won't prevent you from starting the game, the developer(s) of mod 'Expanded Ecosphere' (expanded_ecosphere) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
-[07:42:23] [main/INFO]: Loading 172 mods:
+[03:15:33] [ForkJoinPool-1-worker-1/WARN]: Mod spellbound_weapons_mr uses the version 4.0.5m which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5m'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:15:34] [main/INFO]: Loading 191 mods:
 	- aabilites 0.1.9
 	- architectury 11.1.17
 	- areas 5.9
@@ -18,6 +15,7 @@
 	- backpacked 3.0.0-beta.4
 	   \-- mm 2.3
 	- balm-fabric 9.0.9
+	- biomesoplenty 19.0.0.90
 	- bountifulfares 1.2.1-1.20.4
 	   \-- terraform-wood-api-v1 9.0.0-beta.2
 	- c2me 0.2.0+alpha.11.72
@@ -49,8 +47,6 @@
 	   \-- cloth-basic-math 0.6.1
 	- collective 7.64
 	- craftingtweaks 20.0.3
-	- cristellib 1.2.4
-	   \-- blue_endless_jankson 1.2.3
 	- debugify 1.20.4+1.1
 	- default_skill_trees 1.0
 	- dungeons_arise 2.1.58
@@ -59,7 +55,6 @@
 	- endrem 5.2.4
 	- entityculling 1.6.6
 	- esotericdistillation 1.20.1
-	- expanded_ecosphere 3.3.1
 	- expansiveravines 0.1
 	- fabric-api 0.97.2+1.20.4
 	   |-- fabric-api-base 0.4.37+78d798af4f
@@ -119,16 +114,16 @@
 	- firstperson 2.4.4
 	- fishingparadise 1.1
 	- forgeconfigapiport 20.4.3
-	   |-- com_electronwill_night-config_core 3.6.6
-	   \-- com_electronwill_night-config_toml 3.6.6
 	- framework 0.7.8
-	   |-- com_electronwill_night-config_core 3.6.6
-	   |-- com_electronwill_night-config_toml 3.6.6
 	   |-- org_javassist_javassist 3.29.2-GA
 	   \-- org_reflections_reflections 0.10.2
 	- frycmobvariants 4.4.2+1.20
 	- geckolib 4.4.4
 	   \-- com_eliotlash_mclib_mclib 20
+	- glitchcore 1.0.0.59
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
 	- global-datapack 1.4
 	- itemfig 1.20.1-0.2.7-fabric
 	- java 21
@@ -140,6 +135,22 @@
 	- leafmealone 1.0.1
 	- lithium 0.12.1
 	- lost-idols 1.0.0
+	- macawsbridgesbop 1.20.4-1.3
+	- macawsroofsbop 1.20.4-1.1
+	- mcwbridges 3.0.0
+	- mcwdoors 1.1.1
+	- mcwfences 1.1.2
+	- mcwfencesbop 1.20.4-1.3
+	- mcwfurnitures 3.3.0
+	- mcwfurnituresbop 1.20.4-1.1
+	- mcwholidays 1.1.0
+	- mcwlights 1.1.1
+	- mcwpaintings 1.0.5
+	- mcwpaths 1.0.5
+	- mcwroofs 2.3.1
+	- mcwstairs 1.0.0
+	- mcwtrpdoors 1.1.3
+	- mcwwindows 2.3.1
 	- medieval_buildings 1.0.1
 	- medievalend 1.0.1
 	- memoryleakfix 1.1.5
@@ -151,6 +162,7 @@
 	- mr_crafting 1.20.4.1
 	- mr_fairy_origin 2.0.1
 	- mr_hostile_mobsimproveovertime 1.9.1
+	- mr_lukis_grandcapitals 1.1.1
 	- mr_progression_rebornvanilla 1.3.10
 	- musuen 1.5.0+fabric_1.20.4
 	   \-- reach-entity-attributes 2.5.0
@@ -172,15 +184,25 @@
 	- recycleiron 1.0.12
 	- rw_additionalpaintings 1.2.0
 	- scary-creepers 1.0.1
+	- sereneseasons 9.3.0.25
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
 	- skinlayers3d 1.6.7
 	- spellbinding 1.1-1.20.4
 	- spellbound_weapons_mr 4.0.5m
 	- starlight 1.1.3+fabric.f5dcd1a
 	- starterkit 7.0
-	- t_and_t 1.13.1
 	- teatime 1.0.0
+	- terrablender 3.3.0.12
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
 	- threadtweak 1.20.4-0.1.2
 	- toomuchfood 0.1-1.20.4
+	- toughasnails 9.2.0.170
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
 	- trade_cycling 1.20.4-1.0.11
 	   |-- fabric-key-binding-api-v1 1.0.39+f4b7e42432
 	   \-- fabric-screen-api-v1 2.0.15+f6e85ac232
@@ -202,249 +224,136 @@
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
 	- yosbr 0.1.2
-[07:42:23] [main/INFO]: Applying default options... (YOSBR)
-[07:42:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/JadeScapes/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:42:23] [main/INFO]: Compatibility level set to JAVA_17
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[07:42:24] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[07:42:24] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@11.1.17 (*) (defined in c2me)
-[07:42:24] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[07:42:24] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[07:42:24] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[07:42:24] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[07:42:24] [main/WARN]: Reference map 'craftingtweaks.refmap.json' for craftingtweaks.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:42:24] [main/WARN]: Reference map 'craftingtweaks.refmap.json' for craftingtweaks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:42:24] [main/WARN]: Reference map 'expanded_ecosphere-fabric-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:42:24] [main/WARN]: Reference map 'ForgeConfigAPIPort-Common-refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:42:24] [main/WARN]: Mod 'apoli' attempted to override option 'mixin.entity.collisions.suffocation', which doesn't exist, ignoring
-[07:42:24] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[07:42:24] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
-[07:42:24] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:42:24] [main/INFO]: Loaded configuration file for ModernFix 5.17.0+mc1.20.4: 54 options available, 5 override(s) found
-[07:42:24] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[07:42:24] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[07:42:24] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[07:42:24] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[07:42:24] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[07:42:24] [main/INFO]: Applying Nashorn fix
-[07:42:25] [main/WARN]: Error loading class: carpet/patches/EntityPlayerMPFake (java.lang.ClassNotFoundException: carpet/patches/EntityPlayerMPFake)
-[07:42:25] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[07:42:25] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[07:42:25] [main/WARN]: @Mixin target net.minecraft.class_906 was not found fishingparadise.mixins.json:FishingBobberRendererMixin from mod fishingparadise
-[07:42:25] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[07:42:25] [main/WARN]: Error loading class: org/figuramc/figura/avatar/Avatar (java.lang.ClassNotFoundException: org/figuramc/figura/avatar/Avatar)
-[07:42:25] [main/WARN]: @Mixin target org.figuramc.figura.avatar.Avatar was not found mermod.mixins.json:AvatarMixin from mod mermod
-[07:42:25] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
-[07:42:25] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
-[07:42:25] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[07:42:25] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[07:42:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[07:42:25] [main/INFO]: ThreadTweak config initialized
-[07:42:28] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[07:42:28] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[07:42:28] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[07:42:28] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[07:42:28] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[07:42:29] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[07:42:31] [main/INFO]: Vanilla bootstrap took 5310 milliseconds
-[07:42:32] [main/INFO]: [STDOUT]: All 12 have been set properly
-[07:42:32] [main/INFO]: Apoli 2.12.0 has initialized. Ready to power up your game!
-[07:42:32] [main/INFO]: [Collective] JSON file 'area_names.json' generation requested by mod 'areas'.
-[07:42:32] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[07:42:32] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[07:42:32] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[07:42:32] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[07:42:32] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[07:42:32] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[07:42:32] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[07:42:32] [main/INFO]: Running compat handler for Origins
-[07:42:32] [main/INFO]: Reflections took 71 ms to scan 1 urls, producing 3 keys and 33 values
-[07:42:32] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[07:42:32] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[07:42:33] [main/INFO]: Loading Collective version 7.64.
-[07:42:33] [main/INFO]: Enabled 33 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[07:42:33] [main/INFO]: Successfully Debugify'd your game!
-[07:42:33] [main/INFO]: Hello Fabric world!
-[07:42:33] [main/INFO]: Starting Esoteric Distillation...
-[07:42:33] [main/INFO]: ExpandAbility here, who dis?
-[07:42:33] [main/INFO]: Loading Expanded Ecosphere
-[07:42:33] [main/WARN]: [Expanded Ecosphere Updater] This version doesn't have an update index, skipping
-[07:42:34] [main/INFO]: Registering Item Groups for fishingparadise
-[07:42:34] [main/INFO]: Registering Mod Items for fishingparadise
-[07:42:34] [main/INFO]: Initialized GlobalDatapack
-[07:42:34] [main/INFO]: ItemFig getting up!
-[07:42:34] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[07:42:34] [main/INFO]: Definitely not up to no good
-[07:42:34] [main/INFO]: Loading Noisium.
-[07:42:34] [main/INFO]: Origins 1.13.0 is initializing. Have fun!
-[07:42:34] [main/INFO]: Registering Mod Items for queencats
-[07:42:34] [main/INFO]: Initializing RwAdditionalpaintingsMod
-[07:42:34] [main/INFO]: Spellbinding Initialized!
-[07:42:34] [main/INFO]: Registering Mod Items for teatime
-[07:42:34] [main/INFO]: Registering ModBlocks for teatime
-[07:42:34] [main/INFO]: Registering Villagers teatime
-[07:42:34] [main/INFO]: Registering Block Entities for teatime
-[07:42:34] [main/INFO]: Registering Screen Handlers for teatime
-[07:42:34] [main/INFO]: Registering Mod Items for toomuchfood
-[07:42:34] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[07:42:34] [main/ERROR]: Pack for WWOO LOL is null
-[07:42:34] [main/ERROR]: Pack for WWOO LOL is null
-[07:42:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:42:34] [main/INFO]: Bypassed Mojang DFU
-[07:42:34] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on backpacked.common.mixins.json:common.ServerPlayerGameModeMixin from mod backpacked::handler$zho000$backpacked$OnBlockMined exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[07:42:34] [main/ERROR]: Pack for WWOO LOL is null
-[07:42:34] [main/INFO]: Found new data pack additionalentityattributes, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack apoli, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack artifacts, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack backpacked, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack balm-fabric, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack bountifulfares, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack candymod, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack collective, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack craftingtweaks, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack default_skill_trees, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack dungeons_arise, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack dungeons_arise_seven_seas, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack endrem, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack expanded_ecosphere, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack fabric, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack fabric-convention-tags-v1, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack farmingforblockheads, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack fishingparadise, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack frycmobvariants, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack lost-idols, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack medieval_buildings, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack medievalend, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack mermod, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack mr_crafting, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack mr_fairy_origin, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack mr_hostile_mobsimproveovertime, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack mr_progression_rebornvanilla, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack musuen, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack origins, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack puffish_attributes, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack queen-cats, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack recycleiron, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack resources/ee_default_resources/ee_default, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack resources/ee_remove_blobs_resources/ee_remove_blobs, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack rw_additionalpaintings, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack spellbound_weapons_mr, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack t_and_t, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack teatime, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack toomuchfood, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack trinkets, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack urlmusicdiscs, loading it automatically
-[07:42:34] [main/INFO]: Found new data pack wwoo, loading it automatically
-[07:42:36] [main/INFO]: No existing world data, creating new world
-[07:42:37] [Worker-Main-1/ERROR]: Couldn't load tag hostilemobs:empties as it is missing following references: minecraft:grass (from mr_hostile_mobsimproveovertime)
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_leggings
-com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe
-com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_boots
-com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn_knives:iron_knife_crafting
-com.google.gson.JsonParseException: Item must not be minecraft:air
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_helmet
-com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_hoe
+[03:15:34] [main/INFO]: Applying default options... (YOSBR)
+[03:15:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/JadeScapes/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:15:34] [main/INFO]: Compatibility level set to JAVA_17
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[03:15:34] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:15:34] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@11.1.17 (*) (defined in c2me)
+[03:15:34] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[03:15:34] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[03:15:34] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[03:15:34] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[03:15:34] [main/WARN]: Reference map 'craftingtweaks.refmap.json' for craftingtweaks.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:15:34] [main/WARN]: Reference map 'craftingtweaks.refmap.json' for craftingtweaks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:15:34] [main/WARN]: Reference map 'ForgeConfigAPIPort-Common-refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:15:34] [main/WARN]: Mod 'apoli' attempted to override option 'mixin.entity.collisions.suffocation', which doesn't exist, ignoring
+[03:15:34] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[03:15:34] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[03:15:34] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:15:35] [main/INFO]: Loaded configuration file for ModernFix 5.17.0+mc1.20.4: 54 options available, 5 override(s) found
+[03:15:35] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[03:15:35] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[03:15:35] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[03:15:35] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[03:15:35] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[03:15:35] [main/INFO]: Applying Nashorn fix
+[03:15:35] [main/WARN]: Error loading class: carpet/patches/EntityPlayerMPFake (java.lang.ClassNotFoundException: carpet/patches/EntityPlayerMPFake)
+[03:15:35] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[03:15:35] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[03:15:35] [main/WARN]: @Mixin target net.minecraft.class_906 was not found fishingparadise.mixins.json:FishingBobberRendererMixin from mod fishingparadise
+[03:15:35] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[03:15:35] [main/WARN]: Error loading class: org/figuramc/figura/avatar/Avatar (java.lang.ClassNotFoundException: org/figuramc/figura/avatar/Avatar)
+[03:15:35] [main/WARN]: @Mixin target org.figuramc.figura.avatar.Avatar was not found mermod.mixins.json:AvatarMixin from mod mermod
+[03:15:35] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
+[03:15:35] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
+[03:15:36] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[03:15:36] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[03:15:36] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[03:15:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:15:36] [main/INFO]: ThreadTweak config initialized
+[03:15:39] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[03:15:39] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[03:15:39] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[03:15:39] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[03:15:39] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[03:15:40] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[03:15:40] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[03:15:42] [main/INFO]: Vanilla bootstrap took 5347 milliseconds
+[03:15:43] [main/INFO]: [STDOUT]: All 12 have been set properly
+[03:15:43] [main/INFO]: Apoli 2.12.0 has initialized. Ready to power up your game!
+[03:15:43] [main/INFO]: [Collective] JSON file 'area_names.json' generation requested by mod 'areas'.
+[03:15:43] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[03:15:43] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[03:15:43] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[03:15:43] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[03:15:43] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[03:15:43] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[03:15:43] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[03:15:43] [main/INFO]: Running compat handler for Origins
+[03:15:43] [main/INFO]: Reflections took 82 ms to scan 1 urls, producing 3 keys and 33 values
+[03:15:43] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[03:15:43] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[03:15:44] [main/INFO]: Loading Collective version 7.64.
+[03:15:44] [main/INFO]: Enabled 33 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[03:15:44] [main/INFO]: Successfully Debugify'd your game!
+[03:15:44] [main/INFO]: Hello Fabric world!
+[03:15:44] [main/INFO]: Starting Esoteric Distillation...
+[03:15:44] [main/INFO]: ExpandAbility here, who dis?
+[03:15:44] [main/INFO]: Registering Item Groups for fishingparadise
+[03:15:44] [main/INFO]: Registering Mod Items for fishingparadise
+[03:15:44] [main/INFO]: Serene Seasons detected. Enabling season modifier.
+[03:15:44] [main/INFO]: Bypassed Mojang DFU
+[03:15:44] [main/INFO]: Instantiating Mojang DFU
+[03:15:45] [main/ERROR]: No data fixer registered for anomaly
+[03:15:45] [main/ERROR]: No data fixer registered for season_sensor
+[03:15:45] [main/ERROR]: No data fixer registered for water_purifier
+[03:15:45] [main/ERROR]: No data fixer registered for temperature_gauge
+[03:15:45] [main/ERROR]: No data fixer registered for thermoregulator
+[03:15:45] [main/INFO]: Initialized GlobalDatapack
+[03:15:45] [main/INFO]: ItemFig getting up!
+[03:15:45] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[03:15:45] [main/INFO]: Macaw's Roofs - Biomes O Plenty... Loading...
+[03:15:45] [main/INFO]: Macaw's Roofs - Biomes O Plenty... Finish...
+[03:15:45] [main/INFO]: Macaw's Fences - Biomes O' Plenty... Loading...
+[03:15:45] [main/INFO]: Macaw's Fences - Biomes O' Plenty... Finish...
+[03:15:45] [main/INFO]: Macaw's Furnitures - Biomes O Plenty... Loading...
+[03:15:45] [main/INFO]: Macaw's Furnitures - Biomes O Plenty... Finish...
+[03:15:46] [main/INFO]: Definitely not up to no good
+[03:15:46] [main/INFO]: Loading Noisium.
+[03:15:46] [main/INFO]: Origins 1.13.0 is initializing. Have fun!
+[03:15:46] [main/INFO]: Registering Mod Items for queencats
+[03:15:46] [main/INFO]: Initializing RwAdditionalpaintingsMod
+[03:15:46] [main/INFO]: Spellbinding Initialized!
+[03:15:46] [main/INFO]: Registering Mod Items for teatime
+[03:15:46] [main/INFO]: Registering ModBlocks for teatime
+[03:15:46] [main/INFO]: Registering Villagers teatime
+[03:15:46] [main/INFO]: Registering Block Entities for teatime
+[03:15:46] [main/INFO]: Registering Screen Handlers for teatime
+[03:15:46] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[03:15:46] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[03:15:46] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[03:15:46] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[03:15:46] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[03:15:46] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[03:15:46] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[03:15:46] [main/INFO]: Registering Mod Items for toomuchfood
+[03:15:46] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[03:15:46] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:15:46] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on backpacked.common.mixins.json:common.ServerPlayerGameModeMixin from mod backpacked::handler$zho000$backpacked$OnBlockMined exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03:15:46] [main/WARN]: Missing data pack xercapaint
+[03:15:49] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:air_like as it is missing following references: minecraft:grass (from file/mount-ride-DP-v1-2-1a.zip)
+[03:15:49] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:bamboo_air_like as it is missing following references: #minecraft:air_like (from file/mount-ride-DP-v1-2-1a.zip)
+[03:15:49] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:non_solid as it is missing following references: #minecraft:air_like (from file/mount-ride-DP-v1-2-1a.zip)
+[03:15:49] [Worker-Main-2/ERROR]: Couldn't load tag hostilemobs:empties as it is missing following references: minecraft:grass (from mr_hostile_mobsimproveovertime)
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_axe
 com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -462,25 +371,7 @@ com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_pickaxe
-com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn_knives:rose_knife_crafting
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn_knives:rose_knife_crafting
 com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'm' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -498,61 +389,7 @@ com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'm
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe crafting_plus:custom_craft/craft_grass_block
-com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":"minecraft:grass"},{"item":"minecraft:moss_carpet"},{"item":"minecraft:tall_grass"}]; Not a JSON object: [{"item":"minecraft:grass"},{"item":"minecraft:moss_carpet"},{"item":"minecraft:tall_grass"}]; No key tag in MapLike[{"item":"minecraft:grass"}]; Item must not be minecraft:air; Item array cannot be empty, at least one item must be defined; Not a JSON object: [{"item":"minecraft:grass"},{"item":"minecraft:moss_carpet"},{"item":"minecraft:tall_grass"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_sword
-com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_chestplate
-com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe2
+[03:15:51] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe2
 com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -570,7 +407,7 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:sal
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe3
+[03:15:51] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe3
 com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -588,7 +425,7 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:sal
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe4
+[03:15:51] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe4
 com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -606,7 +443,7 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:sal
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe5
+[03:15:51] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe5
 com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -624,7 +461,7 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:sal
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe6
+[03:15:51] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe6
 com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -642,7 +479,7 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:sal
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe7
+[03:15:51] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe7
 com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -660,43 +497,7 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:sal
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_axe
-com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_shovel
-com.google.gson.JsonParseException: Item must not be minecraft:air; No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]; No key tag in MapLike[{"item":"progression_reborn:rose_upgrade_smithing_template"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_upgrade_smithing_template"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_upgrade_smithing_template"}]
-	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/ERROR]: Parsing error loading recipe progression_reborn_knives:netherite_knife_crafting
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn_knives:netherite_knife_crafting
 com.google.gson.JsonParseException: Item must not be minecraft:air
 	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
@@ -714,194 +515,406 @@ com.google.gson.JsonParseException: Item must not be minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[07:42:38] [main/INFO]: Loaded 10 recipes
-[07:42:38] [main/ERROR]: Parsing error loading custom advancement progression_reborn:rose_gear: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: progression_reborn:rose_ingot missed input: {"has_rose_ingot":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["progression_reborn:rose_ingot"]}]}}}
-[07:42:38] [main/ERROR]: Parsing error loading custom advancement progression_reborn_knives:rose_knife_crafting: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: progression_reborn:rose_ingot missed input: {"has_rose_ingot":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["progression_reborn:rose_ingot"]}]}}}
-[07:42:38] [main/INFO]: Loaded 1722 advancements
-[07:42:38] [main/INFO]: Finished loading powers from data files. Registry contains 111 powers.
-[07:42:38] [main/INFO]: Finished loading global power sets. Merging similar global power sets...
-[07:42:38] [main/INFO]: Finished merging similar global power sets from data files. Loaded 0 global power sets.
-[07:42:38] [main/WARN]: Overriding origin "origins:merling" (with prev. loading priority of 0) with a higher loading priority of 1 from data pack [mermod]!
-[07:42:38] [main/INFO]: Finished loading origins from data files. Registry contains 12 origins.
-[07:42:38] [main/INFO]: Loading origin layer from data files...
-[07:42:38] [main/INFO]: Trying to read origin layer file "origins:origin" from data pack [mr_fairy_origin]
-[07:42:38] [main/INFO]: Trying to read origin layer file "origins:origin" from data pack [origins]
-[07:42:38] [main/INFO]: Finished loading origin layers. Merging similar origin layers...
-[07:42:38] [main/INFO]: Finished merging similar origin layers from data files. Read 1 origin layers.
-[07:42:38] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: hostilemobs:empties
-[07:42:39] [main/INFO]: Applied 469 biome modifications to 240 of 253 new biomes in 49.24 ms
-[07:42:39] [Server thread/INFO]: Loading server configs...
-[07:42:39] [Server thread/INFO]: [puffish_skills] Configuration loaded successfully!
-[07:42:39] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
-[07:42:39] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[07:42:39] [Server thread/INFO]: Loading properties
-[07:42:39] [Server thread/INFO]: Default game type: SURVIVAL
-[07:42:39] [Server thread/INFO]: Generating keypair
-[07:42:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:42:39] [Server thread/INFO]: Using epoll channel type
-[07:42:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:42:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:42:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:42:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:42:39] [Server thread/INFO]: Preparing level "world"
-[07:42:39] [Server thread/INFO]: Enforcing safe world random access
-[07:42:43] [Worker-Main-3/INFO]: Instantiating Mojang DFU
-[07:42:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:42:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:42:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:42:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:42:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:42:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:42:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:43:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:43:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:43:01] [Worker-Main-3/INFO]: Preparing spawn area: 1%
-[07:43:01] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[07:43:02] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[07:43:02] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[07:43:03] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[07:43:03] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[07:43:04] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[07:43:04] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[07:43:05] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[07:43:05] [Worker-Main-2/INFO]: Preparing spawn area: 6%
-[07:43:06] [Worker-Main-2/INFO]: Preparing spawn area: 7%
-[07:43:06] [Worker-Main-2/INFO]: Preparing spawn area: 8%
-[07:43:07] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[07:43:07] [Worker-Main-2/INFO]: Preparing spawn area: 9%
-[07:43:08] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[07:43:08] [Worker-Main-3/INFO]: Preparing spawn area: 11%
-[07:43:09] [Worker-Main-2/INFO]: Preparing spawn area: 12%
-[07:43:09] [Worker-Main-3/INFO]: Preparing spawn area: 13%
-[07:43:10] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[07:43:10] [Worker-Main-3/INFO]: Preparing spawn area: 15%
-[07:43:11] [Worker-Main-1/INFO]: Preparing spawn area: 16%
-[07:43:11] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[07:43:12] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[07:43:12] [Worker-Main-2/INFO]: Preparing spawn area: 19%
-[07:43:13] [Worker-Main-3/INFO]: Preparing spawn area: 19%
-[07:43:13] [Worker-Main-1/INFO]: Preparing spawn area: 21%
-[07:43:14] [Worker-Main-3/INFO]: Preparing spawn area: 22%
-[07:43:14] [Worker-Main-2/INFO]: Preparing spawn area: 22%
-[07:43:15] [Worker-Main-1/INFO]: Preparing spawn area: 23%
-[07:43:15] [Worker-Main-2/INFO]: Preparing spawn area: 23%
-[07:43:16] [Worker-Main-3/INFO]: Preparing spawn area: 24%
-[07:43:16] [Worker-Main-3/INFO]: Preparing spawn area: 26%
-[07:43:17] [Worker-Main-2/INFO]: Preparing spawn area: 28%
-[07:43:17] [Worker-Main-1/INFO]: Preparing spawn area: 30%
-[07:43:18] [Worker-Main-3/INFO]: Preparing spawn area: 31%
-[07:43:18] [Worker-Main-3/INFO]: Preparing spawn area: 31%
-[07:43:19] [Worker-Main-1/INFO]: Preparing spawn area: 31%
-[07:43:19] [Worker-Main-3/INFO]: Preparing spawn area: 34%
-[07:43:20] [Worker-Main-2/INFO]: Preparing spawn area: 36%
-[07:43:20] [Worker-Main-3/INFO]: Preparing spawn area: 36%
-[07:43:21] [Worker-Main-1/INFO]: Preparing spawn area: 37%
-[07:43:21] [Worker-Main-2/INFO]: Preparing spawn area: 39%
-[07:43:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-320, y=-45, z=-203}
-[07:43:22] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-318, y=-45, z=-204}
-[07:43:22] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-318, y=-45, z=-202}
-[07:43:22] [Worker-Main-2/INFO]: Preparing spawn area: 40%
-[07:43:22] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[07:43:23] [Worker-Main-2/INFO]: Preparing spawn area: 42%
-[07:43:23] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[07:43:24] [Worker-Main-3/INFO]: Preparing spawn area: 44%
-[07:43:24] [Worker-Main-3/INFO]: Preparing spawn area: 46%
-[07:43:25] [Worker-Main-1/INFO]: Preparing spawn area: 46%
-[07:43:25] [Worker-Main-2/INFO]: Preparing spawn area: 48%
-[07:43:26] [Worker-Main-3/INFO]: Preparing spawn area: 48%
-[07:43:26] [Worker-Main-2/INFO]: Preparing spawn area: 50%
-[07:43:27] [Worker-Main-1/INFO]: Preparing spawn area: 52%
-[07:43:27] [Worker-Main-2/INFO]: Preparing spawn area: 54%
-[07:43:28] [Worker-Main-2/INFO]: Preparing spawn area: 54%
-[07:43:28] [Worker-Main-3/INFO]: Preparing spawn area: 55%
-[07:43:29] [Worker-Main-2/INFO]: Preparing spawn area: 57%
-[07:43:29] [Worker-Main-3/INFO]: Preparing spawn area: 58%
-[07:43:30] [Worker-Main-3/INFO]: Preparing spawn area: 59%
-[07:43:30] [Worker-Main-3/INFO]: Preparing spawn area: 61%
-[07:43:31] [Worker-Main-1/INFO]: Preparing spawn area: 61%
-[07:43:31] [Worker-Main-3/INFO]: Preparing spawn area: 63%
-[07:43:32] [Worker-Main-3/INFO]: Preparing spawn area: 65%
-[07:43:32] [Worker-Main-2/INFO]: Preparing spawn area: 66%
-[07:43:33] [Worker-Main-2/INFO]: Preparing spawn area: 67%
-[07:43:33] [Worker-Main-1/INFO]: Preparing spawn area: 68%
-[07:43:34] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[07:43:34] [Worker-Main-3/INFO]: Preparing spawn area: 68%
-[07:43:35] [Worker-Main-2/INFO]: Preparing spawn area: 70%
-[07:43:35] [Worker-Main-3/INFO]: Preparing spawn area: 71%
-[07:43:36] [Worker-Main-2/INFO]: Preparing spawn area: 72%
-[07:43:36] [Worker-Main-2/INFO]: Preparing spawn area: 75%
-[07:43:37] [Worker-Main-1/INFO]: Preparing spawn area: 76%
-[07:43:37] [Worker-Main-2/INFO]: Preparing spawn area: 78%
-[07:43:38] [Worker-Main-3/INFO]: Preparing spawn area: 78%
-[07:43:38] [Worker-Main-1/INFO]: Preparing spawn area: 80%
-[07:43:39] [Worker-Main-3/INFO]: Preparing spawn area: 81%
-[07:43:39] [Worker-Main-2/INFO]: Preparing spawn area: 82%
-[07:43:40] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[07:43:40] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[07:43:41] [Worker-Main-1/INFO]: Preparing spawn area: 84%
-[07:43:41] [Worker-Main-3/INFO]: Preparing spawn area: 85%
-[07:43:42] [Worker-Main-3/INFO]: Preparing spawn area: 86%
-[07:43:42] [Worker-Main-3/INFO]: Preparing spawn area: 86%
-[07:43:43] [Worker-Main-3/INFO]: Preparing spawn area: 88%
-[07:43:43] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[07:43:44] [Worker-Main-1/INFO]: Preparing spawn area: 91%
-[07:43:44] [Worker-Main-3/INFO]: Preparing spawn area: 92%
-[07:43:45] [Worker-Main-3/INFO]: Preparing spawn area: 94%
-[07:43:45] [Worker-Main-2/INFO]: Preparing spawn area: 95%
-[07:43:46] [Worker-Main-2/INFO]: Preparing spawn area: 97%
-[07:43:46] [Worker-Main-3/INFO]: Preparing spawn area: 98%
-[07:43:46] [Server thread/INFO]: Time elapsed: 49685 ms
-[07:43:46] [Server thread/INFO]: Done (67.074s)! For help, type "help"
-[07:43:46] [Server thread/WARN]: Dedicated server took 84.391 seconds to load
-[07:43:46] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
-[07:43:46] [Server thread/INFO]: Loaded values for 31 compatible attributes.
-[07:43:46] [Server thread/INFO]: Loaded 31 values from config.
-[07:43:46] [Server thread/INFO]: Saving config file. 31 entries.
-[07:43:46] [Server thread/INFO]: Applying changes for 31 attributes.
-[07:44:17] [Server thread/INFO]: Amalgam5006X[/100.96.242.93:59544] logged in with entity id 121 at (7.5, 68.0, 1.5)
-[07:44:17] [Server thread/INFO]: Amalgam5006X joined the game
-[07:44:25] [Server thread/INFO]: Player Amalgam5006X chose origin "fairy:fairy" for layer "origins:origin"
-[07:45:13] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
-[07:45:21] [Server thread/INFO]: Locating element minecraft:village_taiga took 20 ms
-[07:45:24] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to 384.500000, 75.116501, 48.500000]
-[07:45:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3021ms or 60 ticks behind
-[07:45:30] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 0 ms
-[07:46:45] [Server thread/INFO]: Locating element wythers:eucalyptus_jungle_canyon took 2232 ms
-[07:46:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2194ms or 43 ticks behind
-[07:46:45] [Server thread/WARN]: Amalgam5006X moved too quickly! 0.0,10.312500617038765,0.0
-[07:46:48] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to 1237.500000, 66.000000, 3226.500000]
-[07:46:52] [Worker-Main-2/WARN]: Empty height range: [-55 absolute--60 absolute]
-[07:46:52] [Worker-Main-2/WARN]: Empty height range: [-55 absolute--60 absolute]
-[07:46:52] [Worker-Main-2/WARN]: Empty height range: [-55 absolute--60 absolute]
-[07:47:54] [Server thread/INFO]: Amalgam5006X has made the advancement [Lost Idols]
-[07:47:57] [Worker-Main-2/WARN]: Empty or non-existent pool: kaisyn:village/beach_lighthouse/villager_lighthouse_master
-[07:48:37] [Server thread/INFO]: Locating element wythers:autumnal_flower_forest took 1607 ms
-[07:48:40] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to -1742.500000, 127.000000, 3518.500000]
-[07:48:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4463ms or 89 ticks behind
-[07:48:59] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:48:59] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:48:59] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:02] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:03] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:05] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:05] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:06] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:06] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:13] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:49:13] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[07:50:30] [Server thread/INFO]: Locating element wythers:sakura_forest took 362 ms
-[07:50:32] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to -660.500000, 137.000000, 4616.500000]
-[07:50:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_leggings
+com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe candymod:taffy_recipe
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"bakingmod:salt"}]; Item must not be minecraft:air; Not a json array: {"item":"bakingmod:salt"}; Input does not contain a key [fabric:type]: MapLike[{"item":"bakingmod:salt"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_boots
+com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn_knives:iron_knife_crafting
+com.google.gson.JsonParseException: Item must not be minecraft:air
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_helmet
+com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_hoe
+com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_pickaxe
+com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_sword
+com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry 'A' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_chestplate
+com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '0' : No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe progression_reborn:rose_shovel
+com.google.gson.JsonParseException: Item must not be minecraft:air; No key tag in MapLike[{"item":"progression_reborn:rose_ingot"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_ingot"}]; No key tag in MapLike[{"item":"progression_reborn:rose_upgrade_smithing_template"}]; Item must not be minecraft:air; Not a json array: {"item":"progression_reborn:rose_upgrade_smithing_template"}; Input does not contain a key [fabric:type]: MapLike[{"item":"progression_reborn:rose_upgrade_smithing_template"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe mcwholidays:snowy_grass
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"minecraft:grass"}]; Item must not be minecraft:air; Not a json array: {"item":"minecraft:grass"}; Input does not contain a key [fabric:type]: MapLike[{"item":"minecraft:grass"}]; No ingredients for shapeless recipe
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/ERROR]: Parsing error loading recipe crafting_plus:custom_craft/craft_grass_block
+com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":"minecraft:grass"},{"item":"minecraft:moss_carpet"},{"item":"minecraft:tall_grass"}]; Not a JSON object: [{"item":"minecraft:grass"},{"item":"minecraft:moss_carpet"},{"item":"minecraft:tall_grass"}]; No key tag in MapLike[{"item":"minecraft:grass"}]; Item must not be minecraft:air; Item array cannot be empty, at least one item must be defined; Not a JSON object: [{"item":"minecraft:grass"},{"item":"minecraft:moss_carpet"},{"item":"minecraft:tall_grass"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:944) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:932) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:178) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[03:15:51] [main/INFO]: Loaded 11 recipes
+[03:15:51] [main/ERROR]: Parsing error loading custom advancement progression_reborn:rose_gear: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: progression_reborn:rose_ingot missed input: {"has_rose_ingot":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["progression_reborn:rose_ingot"]}]}}}
+[03:15:52] [main/ERROR]: Parsing error loading custom advancement progression_reborn_knives:rose_knife_crafting: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: progression_reborn:rose_ingot missed input: {"has_rose_ingot":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["progression_reborn:rose_ingot"]}]}}}
+[03:15:52] [main/INFO]: Loaded 2909 advancements
+[03:15:52] [main/INFO]: Finished loading powers from data files. Registry contains 111 powers.
+[03:15:52] [main/INFO]: Finished loading global power sets. Merging similar global power sets...
+[03:15:52] [main/INFO]: Finished merging similar global power sets from data files. Loaded 0 global power sets.
+[03:15:52] [main/WARN]: Overriding origin "origins:merling" (with prev. loading priority of 0) with a higher loading priority of 1 from data pack [mermod]!
+[03:15:52] [main/INFO]: Finished loading origins from data files. Registry contains 12 origins.
+[03:15:52] [main/INFO]: Loading origin layer from data files...
+[03:15:52] [main/INFO]: Trying to read origin layer file "origins:origin" from data pack [mr_fairy_origin]
+[03:15:52] [main/INFO]: Trying to read origin layer file "origins:origin" from data pack [origins]
+[03:15:52] [main/INFO]: Finished loading origin layers. Merging similar origin layers...
+[03:15:52] [main/INFO]: Finished merging similar origin layers from data files. Read 1 origin layers.
+[03:15:52] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: hostilemobs:empties, minecraft:air_like, minecraft:bamboo_air_like, minecraft:non_solid
+[03:15:52] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[03:15:52] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[03:15:53] [main/INFO]: Applied 236 biome modifications to 139 of 165 new biomes in 115.5 ms
+[03:15:53] [Server thread/INFO]: Loading server configs...
+[03:15:53] [Server thread/INFO]: [puffish_skills] Configuration loaded successfully!
+[03:15:53] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[03:15:53] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[03:15:53] [Server thread/INFO]: Loading properties
+[03:15:53] [Server thread/INFO]: Default game type: SURVIVAL
+[03:15:53] [Server thread/INFO]: Generating keypair
+[03:15:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:15:53] [Server thread/INFO]: Using epoll channel type
+[03:15:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:15:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:15:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:15:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:15:53] [Server thread/INFO]: Preparing level "world"
+[03:15:53] [Server thread/INFO]: Enforcing safe world random access
+[03:15:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:15:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:15:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:15:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:15:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:16:00] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[03:16:00] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[03:16:01] [Worker-Main-1/INFO]: Preparing spawn area: 7%
+[03:16:01] [Worker-Main-3/INFO]: Preparing spawn area: 24%
+[03:16:02] [Worker-Main-1/INFO]: Preparing spawn area: 64%
+[03:16:02] [Worker-Main-2/INFO]: Preparing spawn area: 95%
+[03:16:02] [Server thread/INFO]: Time elapsed: 4553 ms
+[03:16:02] [Server thread/INFO]: Done (9.485s)! For help, type "help"
+[03:16:02] [Server thread/WARN]: Dedicated server took 30.792 seconds to load
+[03:16:03] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
+[03:16:03] [Server thread/INFO]: Loaded values for 31 compatible attributes.
+[03:16:03] [Server thread/INFO]: Loaded 31 values from config.
+[03:16:03] [Server thread/INFO]: Saving config file. 31 entries.
+[03:16:03] [Server thread/INFO]: Applying changes for 31 attributes.
+[03:16:37] [Server thread/WARN]: Ignored advancement 'xercapaint:recipes/item_easel' in progress file ./world/advancements/e48d4058-89e0-3edb-ae78-b1100f9f0fc2.json - it doesn't exist anymore?
+[03:16:37] [Server thread/ERROR]: Tried to load unrecognized recipe: xercapaint:item_easel removed now.
+[03:16:37] [Server thread/ERROR]: Tried to load unrecognized recipe: xercapaint:item_easel removed now.
+[03:16:37] [Server thread/INFO]: Amalgam5006X[/100.96.242.93:49978] logged in with entity id 54 at (-3931.15028522075, 150.0, -1434.438624879606)
+[03:16:37] [Server thread/INFO]: Amalgam5006X joined the game
+[03:16:50] [Worker-Main-3/WARN]: Skipping Entity with id 
+[03:17:15] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[03:18:45] [Server thread/INFO]: Villager class_1646['Cleric'/76, l='ServerLevel[Drunken JadeScapesv2]', x=-3956.41, y=136.00, z=-1387.70] died, message: 'Cleric was slain by Zombie'
+[03:19:00] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-3720, y=-46, z=-1644} but found not block entity block Block{minecraft:water}[level=0] at location
+[03:19:00] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:water}[level=0] but failed at location class_2338{x=-3720, y=-46, z=-1644}
+[03:19:19] [Worker-Main-2/WARN]: Empty or non-existent pool: minecraft:mushroom_fields/tsuhioshi/cows
+[03:19:19] [Worker-Main-2/WARN]: Empty or non-existent pool: minecraft:mushroom_fields/tsuhioshi/cows
+[03:19:20] [Server thread/INFO]: Locating element minecraft:mushroom_fields/tsuhioshi took 5304 ms
+[03:19:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5295ms or 105 ticks behind
+[03:19:20] [Server thread/WARN]: Amalgam5006X moved too quickly! -8.601264060539506,-3.1095525467400194,4.6766308284500155
+[03:20:14] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to 2208.500000, 125.000000, 2832.500000]
+[03:20:15] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-36, y=8, z=198}
+[03:20:15] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-44, y=10, z=214}
+[03:20:15] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-44, y=5, z=215}
+[03:20:15] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-41, y=10, z=216}
+[03:20:15] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-41, y=9, z=217}
+[03:20:15] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-38, y=10, z=217}
+[03:20:15] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-38, y=10, z=216}
+[03:20:15] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-40, y=9, z=215}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-36, y=8, z=198}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-42, y=9, z=213}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-39, y=9, z=211}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-37, y=10, z=212}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-40, y=10, z=210}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-38, y=10, z=211}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-65, y=3, z=296}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-59, y=4, z=297}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-64, y=3, z=299}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-58, y=5, z=298}
+[03:20:16] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-57, y=5, z=298}
+[03:20:17] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-46, y=4, z=297}
+[03:20:17] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-44, y=4, z=297}
+[03:20:17] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-40, y=4, z=297}
+[03:20:17] [Server thread/WARN]: Amalgam5006X moved too quickly! 0.0,-10.806526110008988,0.0
+[03:20:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3660ms or 73 ticks behind
+[03:20:18] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-54, y=3, z=291}
+[03:20:18] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-54, y=3, z=291}
+[03:20:18] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-66, y=3, z=292}
+[03:20:18] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-64, y=3, z=290}
+[03:20:18] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-64, y=3, z=292}
+[03:20:18] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-60, y=3, z=288}
+[03:20:18] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-59, y=4, z=294}
+[03:20:18] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-58, y=3, z=290}
+[03:20:18] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-57, y=3, z=290}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-66, y=3, z=292}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-65, y=3, z=296}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-64, y=3, z=290}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-64, y=3, z=292}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-60, y=3, z=288}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-59, y=4, z=294}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-58, y=3, z=290}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-57, y=3, z=290}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-59, y=4, z=297}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-64, y=3, z=299}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-58, y=5, z=298}
+[03:20:19] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=-57, y=5, z=298}
+[03:20:19] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-36, y=4, z=294}
+[03:20:19] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-38, y=5, z=291}
+[03:20:19] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-37, y=4, z=292}
+[03:20:19] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=-36, y=4, z=295}
+[03:20:19] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-45, y=4, z=291}
+[03:20:19] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-45, y=4, z=289}
+[03:20:19] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-41, y=4, z=293}
+[03:20:19] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-41, y=4, z=292}
+[03:20:19] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-41, y=4, z=295}
+[03:20:19] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-40, y=4, z=291}
+[03:20:19] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-40, y=4, z=293}
+[03:20:27] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2452 ms
+[03:20:34] [Server thread/WARN]: Amalgam5006X moved too quickly! -9.870030870094979,2.523433247725521,-1.0438262910129197
+[03:20:34] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 3 ms
+[03:20:35] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 3 ms
+[03:20:35] [Server thread/WARN]: Amalgam5006X moved too quickly! -9.250945529578075,0.7994110952339355,5.106490370730171
+[03:20:36] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:20:36] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 11 ms
+[03:20:38] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 12 ms
+[03:20:39] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:20:40] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 10 ms
+[03:20:41] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 12 ms
+[03:20:41] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 12 ms
+[03:20:43] [Server thread/WARN]: Amalgam5006X moved too quickly! -10.070396503184384,1.4560993551612853,-0.6709010482463782
+[03:20:43] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 7 ms
+[03:20:44] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:20:44] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 1 ms
+[03:20:45] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 3 ms
+[03:20:45] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 3 ms
+[03:20:46] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 9 ms
+[03:20:47] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 9 ms
+[03:20:48] [Server thread/WARN]: Amalgam5006X moved too quickly! 8.83481219670557,0.020565622621973034,6.026558175075024
+[03:20:48] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 4 ms
+[03:20:48] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 1 ms
+[03:20:49] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:20:50] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:20:51] [Server thread/WARN]: Amalgam5006X moved too quickly! 7.524658131054821,-1.0398906662677092,-6.983112674403401
+[03:20:51] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 5 ms
+[03:20:53] [Server thread/WARN]: Amalgam5006X moved too quickly! 6.723515270084135,-1.4950660194469805,-7.9029618085996844
+[03:20:53] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 1 ms
+[03:20:53] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 9 ms
+[03:20:54] [Server thread/WARN]: Amalgam5006X moved too quickly! 0.0,-10.342366735053545,0.0
+[03:20:54] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 4 ms
+[03:20:55] [Server thread/WARN]: Amalgam5006X moved too quickly! 0.0,-10.72812610848311,0.0
+[03:20:55] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 5 ms
+[03:20:57] [Server thread/WARN]: Amalgam5006X moved too quickly! 0.0,-10.806526110008988,0.0
+[03:20:57] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 3 ms
+[03:21:00] [Server thread/WARN]: Amalgam5006X moved too quickly! -2.1062564846088208,-9.428447327170332,-3.8077808788816583
+[03:21:00] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 13 ms
+[03:21:01] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:21:01] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 17 ms
+[03:21:02] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:21:02] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 0 ms
+[03:21:04] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:21:05] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:21:07] [Server thread/WARN]: Amalgam5006X moved too quickly! 4.274495869337443,5.437658903505437,-7.6685610076419835
+[03:21:07] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 12 ms
+[03:21:08] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 14 ms
+[03:21:09] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 0 ms
+[03:21:09] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 7 ms
+[03:21:11] [Server thread/WARN]: Amalgam5006X moved too quickly! 4.367096789198513,4.500000162732704,-9.027299040089929
+[03:21:11] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 19 ms
+[03:21:11] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 10 ms
+[03:21:12] [Server thread/WARN]: Amalgam5006X moved too quickly! 4.01684103528396,3.8039746645253842,-9.121542863978448
+[03:21:12] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 7 ms
+[03:21:14] [Server thread/WARN]: Amalgam5006X moved too quickly! 1.542410181330979,5.431894396667104,-8.47616899908735
+[03:21:14] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:21:15] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 5 ms
+[03:21:16] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 3 ms
+[03:21:17] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 13 ms
+[03:21:17] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 22 ms
+[03:21:18] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
+[03:21:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46938ms or 938 ticks behind
+[03:21:51] [Server thread/WARN]: Amalgam5006X moved too quickly! 8.653309584507042,-1.3470396295495846,5.022026264289252

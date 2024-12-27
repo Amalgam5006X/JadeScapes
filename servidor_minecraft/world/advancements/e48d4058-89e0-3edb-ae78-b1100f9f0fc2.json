@@ -1,151 +1,1224 @@
 {
-  "toomuchfood:recipes/food/croissant": {
-    "criteria": {
-      "has_bread": "2024-12-26 07:44:18 +0000"
-    },
-    "done": true
-  },
   "knize1007:root": {
     "criteria": {
-      "tick": "2024-12-26 07:44:18 +0000"
+      "tick": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
-  "bountifulfares:recipes/transportation/walnut_boat": {
+  "knize1007:llamas": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "tick": "2024-12-27 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:mechanics/weapons/sonic_bow/tick": {
+    "criteria": {
+      "requirement": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-12-26 07:44:18 +0000"
+      "unlock_right_away": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
+  "infinity_cave:mechanics/weapons/torpedo_harpoon/tick": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "requirement": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
+  "knize1007:wolves": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "tick": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_boat": {
+  "knize1007:upgrade_mobs_root": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "tick": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "global:root": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "trigger": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "norzeteus:norzeteus_terra": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
-    },
-    "done": true
-  },
-  "toomuchfood:recipes/food/pizza": {
-    "criteria": {
-      "has_bread": "2024-12-26 07:44:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "trigger": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
   "knize1007:hostilemobs": {
     "criteria": {
-      "tick": "2024-12-26 07:44:18 +0000"
+      "tick": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
-  "bountifulfares:recipes/food/arid_medley": {
+  "knize1007:sheep": {
     "criteria": {
-      "has_bread": "2024-12-26 07:44:18 +0000"
+      "tick": "2024-12-27 02:58:24 +0000"
     },
     "done": true
   },
   "dungeons_arise:wda_root": {
     "criteria": {
-      "WDA": "2024-12-26 07:44:18 +0000"
+      "WDA": "2024-12-27 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "global:norzeteus": {
+    "criteria": {
+      "trigger": "2024-12-27 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:mechanics/altar/tick": {
+    "criteria": {
+      "requirement": "2024-12-27 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "knize1007:cats": {
+    "criteria": {
+      "tick": "2024-12-27 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "knize1007:iron_golems": {
+    "criteria": {
+      "tick": "2024-12-27 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:load": {
+    "criteria": {
+      "requirement": "2024-12-27 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/flowering_oak_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "upgsheep:wool": {
+    "criteria": {
+      "obtain_amethyst_shard": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/stone": {
+    "criteria": {
+      "has_stone": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/end": {
+    "criteria": {
+      "has_end_brick": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/empyreal": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/origin_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/empyreal_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/dark_oak": {
+    "criteria": {
+      "has_dark_oak": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/red_maple_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/hellbark_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/jacaranda_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/umbran_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/crimson": {
+    "criteria": {
+      "has_crimson": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/prismarine": {
+    "criteria": {
+      "has_qq": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/quartz": {
+    "criteria": {
+      "has_qq": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/sandstone": {
+    "criteria": {
+      "has_sand": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/acacia": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/dead_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/snowblossom_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/jungle": {
+    "criteria": {
+      "has_jungle": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/oak": {
+    "criteria": {
+      "has_oak": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/willow_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/willow": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/mud_brick": {
+    "criteria": {
+      "has_qq": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/mangrove": {
+    "criteria": {
+      "has_mangrove": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/warped": {
+    "criteria": {
+      "has_warped": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "upgirongolems:gimme_recipes": {
+    "criteria": {
+      "obtain_amethyst_shard": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/mahogany": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/nether": {
+    "criteria": {
+      "has_nether_brick": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/dead": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/redwood": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "llama_abilities:recipes_all": {
+    "criteria": {
+      "obtain_amethyst_shard": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/fir_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/maple": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/bamboo": {
+    "criteria": {
+      "has_bamboo": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/pine_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/fir": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "upgwolfes:amethyst_shard": {
+    "criteria": {
+      "obtain_amethyst_shard": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/deepslate": {
+    "criteria": {
+      "has_deepslate": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/spruce": {
+    "criteria": {
+      "has_spruce": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/magic": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/yellow_maple_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "upgcats:amethyst_shard": {
+    "criteria": {
+      "obtain_amethyst_shard": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/rainbow_birch_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/hellbark": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/umbran": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/pine": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/palm_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/magic_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/palm": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/redwood_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/jacaranda": {
+    "criteria": {
+      "has_acacia": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/cypress_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/orange_maple_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfencesbop:recipes/mahogany_hedge": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/birch": {
+    "criteria": {
+      "has_birch": "2024-12-27 02:58:57 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/croissant": {
+    "criteria": {
+      "has_bread": "2024-12-27 02:58:58 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/pizza": {
+    "criteria": {
+      "has_bread": "2024-12-27 02:58:58 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/arid_medley": {
+    "criteria": {
+      "has_bread": "2024-12-27 02:58:58 +0000"
     },
     "done": true
   },
   "toomuchfood:recipes/food/donut": {
     "criteria": {
-      "has_bread": "2024-12-26 07:44:18 +0000"
+      "has_bread": "2024-12-27 02:58:58 +0000"
     },
     "done": true
   },
-  "lost_idols:lost_idols_root": {
+  "bountifulfares:recipes/food/forest_medley": {
     "criteria": {
-      "use_moai_idol": "2024-12-26 07:47:54 +0000"
+      "has_bread": "2024-12-27 02:58:58 +0000"
     },
     "done": true
   },
-  "wythers:world_explorer": {
+  "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-      "wythers:autumnal_flower_forest": "2024-12-26 07:48:45 +0000",
-      "wythers:tropical_rainforest": "2024-12-26 07:47:13 +0000",
-      "wythers:eucalyptus_jungle_canyon": "2024-12-26 07:46:50 +0000",
-      "wythers:snowy_tundra": "2024-12-26 07:44:19 +0000",
-      "wythers:underground": "2024-12-26 07:47:40 +0000",
-      "wythers:tropical_beach": "2024-12-26 07:47:52 +0000",
-      "wythers:tropical_forest": "2024-12-26 07:47:36 +0000",
-      "wythers:eucalyptus_jungle": "2024-12-26 07:47:09 +0000",
-      "wythers:coastal_mangroves": "2024-12-26 07:47:18 +0000"
+      "tundra": "2024-12-27 02:58:59 +0000",
+      "mystic_grove": "2024-12-27 03:20:18 +0000",
+      "mediterranean_forest": "2024-12-27 03:00:15 +0000"
     },
     "done": false
   },
-  "bountifulfares:recipes/transportation/hoary_boat": {
+  "biomesoplenty:biomesoplenty/root": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "tundra": "2024-12-27 02:58:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
+  "mcwfurnitures:recipes/dark_oak": {
     "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
+      "has_wood": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/sushi_roll": {
+    "criteria": {
+      "has_salmon": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/apple_block": {
+    "criteria": {
+      "has_apple": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/building_blocks/oak_pickets": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwstairs:recipes/jungle": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/dark_oak_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/jungle_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/mangrove_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/dark_oak": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/cherry_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/dark_oak_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/hoary_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/blinds": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/oak": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/oak_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/dark_oak_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/birch_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/dark_oak": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/jungle_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/apple_juice": {
+    "criteria": {
+      "has_apple": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/curtain_rods": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/spruce_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/jungle": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/asian_red_bridge": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/parapets": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/oak_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/shutters": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_oak_bridge": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/oak_rail_bridge": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_four_panel": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/jungle_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_beach": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/acacia_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/dark_oak": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/crimson_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/spruce_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/warped_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/jungle_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwstairs:recipes/dark_oak": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/oak_planks": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "toomuchfood:recipes/food/fruit_smoothie": {
+    "criteria": {
+      "has_apple": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/bamboo_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/standing_broomstick": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/standing_rake": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/apple_stew": {
+    "criteria": {
+      "has_apple": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/apple_compote_jar": {
+    "criteria": {
+      "has_apple": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/misc/stick": {
+    "criteria": {
+      "has_the_recipe": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/candied_apple": {
+    "criteria": {
+      "has_apple": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/oak/oak_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/misc/trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000",
+      "has_the_recipe": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/cherry_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/warped_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/walnut_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dark_oak_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/crimson_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/acacia_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/apple_pie": {
+    "criteria": {
+      "has_apple": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/dark_oak/dark_oak_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/asian_red_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/decorations/birch_trellis": {
+    "criteria": {
+      "has_stick": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:16 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/paper_lamp": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:20 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bridge_torch": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:20 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/tiki_torches": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:20 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/lantern": {
+    "criteria": {
+      "has_wood": "2024-12-27 02:59:20 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/grass": {
+    "criteria": {
+      "has_planks": "2024-12-27 02:59:23 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga": "2024-12-26 07:45:27 +0000",
-      "minecraft:dripstone_caves": "2024-12-26 07:46:05 +0000",
-      "minecraft:snowy_taiga": "2024-12-26 07:45:59 +0000"
+      "minecraft:savanna_plateau": "2024-12-27 03:17:50 +0000"
     },
     "done": false
-  },
-  "bountifulfares:recipes/food/forest_medley": {
-    "criteria": {
-      "has_bread": "2024-12-26 07:44:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2024-12-26 07:46:09 +0000"
-    },
-    "done": true
   },
   "DataVersion": 3700
 }
