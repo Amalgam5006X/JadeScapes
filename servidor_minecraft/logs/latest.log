@@ -918,3 +918,10 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [03:21:18] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
 [03:21:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46938ms or 938 ticks behind
 [03:21:51] [Server thread/WARN]: Amalgam5006X moved too quickly! 8.653309584507042,-1.3470396295495846,5.022026264289252
+[03:28:03] [Server thread/INFO]: Amalgam5006X was killed
+[03:28:03] [Server thread/INFO]: [Amalgam5006X: Killed Amalgam5006X]
+[03:28:25] [Server thread/WARN]: Amalgam5006X moved too quickly! -0.1207248160758354,0.0,10.453924512979938
+[03:28:31] [Server thread/INFO]: [Amalgam5006X: Set the time to 1000]
+[03:30:09] [Server thread/INFO]: Amalgam5006X lost connection: Timed out
+[03:30:09] [Server thread/INFO]: Amalgam5006X left the game
+[03:30:09] [Server thread/WARN]: handleDisconnection() called twice
