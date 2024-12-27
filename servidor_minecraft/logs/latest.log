@@ -923,3 +923,4 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [06:56:33] [Server thread/INFO]: Amalgam5006X has made the advancement [Stone Age]
 [07:02:41] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
 [07:03:19] [Server thread/INFO]: [Amalgam5006X: Set the time to 1000]
+[07:04:28] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
