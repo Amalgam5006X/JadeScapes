@@ -1654,6 +1654,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2024-12-27 07:14:32 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/cobblestone_bridge": {
     "criteria": {
       "has_planks": "2024-12-27 06:56:33 +0000"

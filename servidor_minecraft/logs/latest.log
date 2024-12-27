@@ -924,3 +924,7 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [07:02:41] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
 [07:03:19] [Server thread/INFO]: [Amalgam5006X: Set the time to 1000]
 [07:04:28] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[07:16:44] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[07:21:15] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to -3949.500000, 160.000000, -1439.500000]
+[07:21:30] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[07:23:22] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
