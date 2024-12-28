@@ -925,3 +925,18 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [03:48:12] [Server thread/WARN]: Amalgam5006X moved too quickly! 7.618440464724699,-2.0,6.32868743593599
 [03:59:49] [Server thread/INFO]: Amalgam5006X lost connection: Disconnected
 [03:59:49] [Server thread/INFO]: Amalgam5006X left the game
+[04:00:14] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[04:00:14] [Server thread/INFO]: stopstop<--[HERE]
+[04:00:22] [Server thread/INFO]: Stopping the server
+[04:00:22] [Server thread/INFO]: Stopping server
+[04:00:22] [Server thread/INFO]: Saving players
+[04:00:22] [Server thread/INFO]: Saving worlds
+[04:00:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:overworld
+[04:00:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:the_end
+[04:00:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:the_nether
+[04:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:00:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:00:23] [Server thread/INFO]: Unloading server configs...
+[04:00:23] [Server thread/INFO]: Sending config unload event for backpacked.server.toml
