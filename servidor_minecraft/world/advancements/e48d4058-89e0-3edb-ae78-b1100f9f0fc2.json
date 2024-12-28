@@ -482,6 +482,7 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "tundra": "2024-12-27 02:58:59 +0000",
+      "glowing_grotto": "2024-12-28 03:49:18 +0000",
       "mystic_grove": "2024-12-27 03:20:18 +0000",
       "overgrown_greens": "2024-12-27 03:22:04 +0000",
       "mediterranean_forest": "2024-12-27 03:00:15 +0000",
@@ -2928,7 +2929,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:witch": "2024-12-28 03:37:38 +0000",
-      "minecraft:zombie": "2024-12-28 03:19:38 +0000"
+      "minecraft:zombie": "2024-12-28 03:19:38 +0000",
+      "minecraft:zombie_villager": "2024-12-28 03:49:31 +0000"
     },
     "done": false
   },

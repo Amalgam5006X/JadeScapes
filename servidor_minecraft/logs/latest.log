@@ -923,3 +923,5 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [03:38:52] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
 [03:39:46] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
 [03:48:12] [Server thread/WARN]: Amalgam5006X moved too quickly! 7.618440464724699,-2.0,6.32868743593599
+[03:59:49] [Server thread/INFO]: Amalgam5006X lost connection: Disconnected
+[03:59:49] [Server thread/INFO]: Amalgam5006X left the game
