@@ -908,3 +908,9 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [03:14:35] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
 [03:16:24] [Server thread/INFO]: Amalgam5006X has made the advancement [Diamonds!]
 [03:19:17] [Server thread/INFO]: Villager class_1646['Villager'/1105, l='ServerLevel[Drunken JadeScapesv2]', x=-3957.40, y=124.75, z=-1430.30] died, message: 'Villager was slain by Zombie'
+[03:19:38] [Server thread/INFO]: Amalgam5006X has made the advancement [Monster Hunter]
+[03:21:15] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to 2208.500000, 141.000000, 2832.500000]
+[03:21:17] [Server thread/INFO]: Amalgam5006X fell from a high place
+[03:21:22] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[03:21:27] [Server thread/INFO]: [Amalgam5006X: Teleported Amalgam5006X to 2208.500000, 135.000000, 2832.500000]
+[03:22:01] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
