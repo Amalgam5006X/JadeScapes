@@ -3054,9 +3054,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/crimson_rail_bridge": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
   "mcwholidays:recipes/pair_of_pumpkins": {
     "criteria": {
       "has_planks": "2024-12-28 05:59:33 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/crimson_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
     },
     "done": true
   },
@@ -3084,6 +3114,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
   "mcwholidays:recipes/large_pumpkin": {
     "criteria": {
       "has_planks": "2024-12-28 05:59:33 +0000"
@@ -3096,9 +3138,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/building_blocks/crimson_pickets": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/crimson/crimson_blossom_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
   "blocks_of_monster_stuff:recipes/misc/rotten_flesh_block": {
     "criteria": {
       "has_rotten_flesh": "2024-12-28 05:57:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-28 06:22:24 +0000"
     },
     "done": true
   },
@@ -3180,9 +3258,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/classic_armor": {
     "criteria": {
       "has_amethyst": "2024-12-28 05:57:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
     },
     "done": true
   },
@@ -3201,6 +3291,18 @@
   "bountifulfares:recipes/food/crimson_chow": {
     "criteria": {
       "has_crimson_roots": "2024-12-28 06:01:08 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/crimson_planks": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_crimson_bridge": {
+    "criteria": {
+      "has_planks": "2024-12-28 06:21:49 +0000"
     },
     "done": true
   },

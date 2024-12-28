@@ -926,3 +926,4 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [05:58:33] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 1 ms
 [05:58:34] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 0 ms
 [05:58:34] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 6 ms
+[06:22:24] [Server thread/INFO]: Amalgam5006X has made the advancement [What a Deal!]
