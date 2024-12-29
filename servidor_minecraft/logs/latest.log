@@ -927,3 +927,14 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [01:10:51] [Server thread/INFO]: Locating element #minecraft:village (minecraft:village_taiga) took 2 ms
 [01:18:34] [Server thread/INFO]: Villager class_1646['Farmer'/99, l='ServerLevel[Drunken JadeScapesv2]', x=2162.70, y=63.00, z=2845.13] died, message: 'Farmer was slain by Zombie'
 [01:18:50] [Server thread/INFO]: Amalgam5006X has made the advancement [A Seedy Place]
+[01:21:56] [Server thread/INFO]: Amalgam5006X was poked to death by a sweet berry bush
+[01:22:13] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[01:22:22] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[01:26:01] [Server thread/INFO]: Amalgam5006X was killed by Witch using magic
+[01:26:21] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[01:26:44] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[01:27:38] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[01:27:56] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[01:28:30] [Server thread/INFO]: Amalgam5006X was doomed to fall
+[01:28:40] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[01:28:51] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]

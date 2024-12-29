@@ -3324,5 +3324,83 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/food/piquant_candy": {
+    "criteria": {
+      "has_sweet_berries": "2024-12-29 01:22:27 +0000"
+    },
+    "done": true
+  },
+  "farmingforblockheads:recipes/misc/green_fertilizer": {
+    "criteria": {
+      "has_wheat_seeds": "2024-12-29 01:18:47 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/piquant_custard": {
+    "criteria": {
+      "has_sweet_berries": "2024-12-29 01:22:27 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/brown_dye_from_cattail": {
+    "criteria": {
+      "has_cattail": "2024-12-29 01:20:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-29 01:19:54 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/sweet_berry_juice": {
+    "criteria": {
+      "has_sweet_berries": "2024-12-29 01:22:27 +0000"
+    },
+    "done": true
+  },
+  "farmingforblockheads:recipes/misc/yellow_fertilizer": {
+    "criteria": {
+      "has_wheat_seeds": "2024-12-29 01:18:47 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/berry_stuffed_potato": {
+    "criteria": {
+      "has_sweet_berries": "2024-12-29 01:22:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-12-29 01:20:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-29 01:19:54 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/sweet_berry_tart": {
+    "criteria": {
+      "has_sweet_berries": "2024-12-29 01:22:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-12-29 01:18:50 +0000"
+    },
+    "done": true
+  },
+  "farmingforblockheads:recipes/misc/red_fertilizer": {
+    "criteria": {
+      "has_wheat_seeds": "2024-12-29 01:18:47 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }
