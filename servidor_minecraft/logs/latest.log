@@ -909,3 +909,11 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [06:32:03] [Server thread/INFO]: Amalgam5006X has made the advancement [Getting an Upgrade]
 [06:33:05] [Server thread/INFO]: Amalgam5006X has made the advancement [Monsters Level 10]
 [06:33:06] [Server thread/INFO]: Amalgam5006X was killed by Witch using magic
+[06:35:51] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[06:35:56] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[06:36:15] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Spectator Mode]
+[06:36:22] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[06:38:22] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Spectator Mode]
+[06:38:34] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[06:45:24] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[06:45:29] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Spectator Mode]
