@@ -1738,7 +1738,8 @@
       "apple": "2024-12-27 06:40:51 +0000",
       "bread": "2024-12-28 03:17:33 +0000",
       "cooked_mutton": "2025-01-02 06:35:05 +0000",
-      "sweet_berries": "2025-01-02 06:43:38 +0000"
+      "sweet_berries": "2025-01-02 06:43:38 +0000",
+      "carrot": "2025-02-08 03:54:04 +0000"
     },
     "done": false
   },
@@ -3440,15 +3441,33 @@
     },
     "done": true
   },
-  "mcwwindows:recipes/diorite": {
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
-      "has_the_recipe": "2025-01-02 06:44:30 +0000"
+      "has_rose_bush": "2025-01-02 06:27:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-01-02 06:32:03 +0000"
     },
     "done": true
   },
   "knize1007:day10": {
     "criteria": {
       "play25days": "2025-01-02 06:33:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/scroll_table": {
+    "criteria": {
+      "has_table": "2025-01-02 06:36:33 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/diorite": {
+    "criteria": {
+      "has_the_recipe": "2025-01-02 06:44:30 +0000"
     },
     "done": true
   },
@@ -3477,12 +3496,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/scroll_table": {
-    "criteria": {
-      "has_table": "2025-01-02 06:36:33 +0000"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/oak/oak_paper_trapdoor": {
     "criteria": {
       "has_logs": "2025-01-02 06:44:30 +0000"
@@ -3498,12 +3511,6 @@
   "mcwwindows:recipes/dark_prismarine": {
     "criteria": {
       "has_the_recipe": "2025-01-02 06:44:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2025-01-02 06:27:37 +0000"
     },
     "done": true
   },
@@ -3621,12 +3628,6 @@
     },
     "done": true
   },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2025-01-02 06:32:03 +0000"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/oak/oak_ranch_trapdoor": {
     "criteria": {
       "has_logs": "2025-01-02 06:44:30 +0000"
@@ -3693,12 +3694,6 @@
     },
     "done": true
   },
-  "toughasnails:recipes/food/charc_os": {
-    "criteria": {
-      "has_charcoal": "2025-01-02 06:44:33 +0000"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/oak/oak_barred_trapdoor": {
     "criteria": {
       "has_logs": "2025-01-02 06:44:30 +0000"
@@ -3714,6 +3709,24 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-01-02 06:44:30 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/charc_os": {
+    "criteria": {
+      "has_charcoal": "2025-01-02 06:44:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-02-08 03:56:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-02-08 03:56:22 +0000"
     },
     "done": true
   },
