@@ -1739,6 +1739,7 @@
       "bread": "2024-12-28 03:17:33 +0000",
       "cooked_mutton": "2025-01-02 06:35:05 +0000",
       "sweet_berries": "2025-01-02 06:43:38 +0000",
+      "cooked_beef": "2025-02-08 04:16:30 +0000",
       "carrot": "2025-02-08 03:54:04 +0000"
     },
     "done": false
@@ -3715,6 +3716,12 @@
   "toughasnails:recipes/food/charc_os": {
     "criteria": {
       "has_charcoal": "2025-01-02 06:44:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-02-08 04:19:09 +0000"
     },
     "done": true
   },
