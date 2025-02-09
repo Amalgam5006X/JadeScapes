@@ -819,3 +819,4 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [06:22:38] [Server thread/INFO]: Amalgam5006X[/100.96.242.93:56739] logged in with entity id 61 at (2192.6206827009632, 64.0, 2835.699999988079)
 [06:22:38] [Server thread/INFO]: Amalgam5006X joined the game
 [06:22:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2972ms or 59 ticks behind
+[06:43:10] [Server thread/WARN]: Amalgam5006X moved too quickly! -10.132273264425294,0.6709083839322858,-0.9256288712745118
