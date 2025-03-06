@@ -3751,5 +3751,35 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/food/candied_plum": {
+    "criteria": {
+      "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/plum_compote_jar": {
+    "criteria": {
+      "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/plum_block": {
+    "criteria": {
+      "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/building_blocks/plum_wood": {
+    "criteria": {
+      "has_log": "2025-03-06 01:54:56 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/plum_pie": {
+    "criteria": {
+      "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }
