@@ -708,3 +708,32 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [01:42:10] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
 [01:47:09] [Server thread/INFO]: Amalgam5006X was killed
 [01:47:09] [Server thread/INFO]: [Amalgam5006X: Killed Amalgam5006X]
+[02:10:22] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[02:11:07] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[02:11:32] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[02:13:09] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[02:13:10] [Server thread/INFO]: Amalgam5006X lost connection: Disconnected
+[02:13:10] [Server thread/INFO]: Amalgam5006X left the game
+[02:13:14] [Server thread/INFO]: Stopping the server
+[02:13:14] [Server thread/INFO]: Stopping server
+[02:13:14] [Server thread/INFO]: Saving players
+[02:13:14] [Server thread/INFO]: Saving worlds
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:overworld
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/backrooms:backroomslevel3
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/backrooms:backroomslevel0
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:the_nether
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/backrooms:backroomslevel2
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/backrooms:backroomslevel4
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/minecraft:the_end
+[02:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Drunken JadeScapesv2]'/backrooms:backroomslevel5
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (backroomslevel3): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (backroomslevel0): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (backroomslevel2): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (backroomslevel4): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (backroomslevel5): All chunks are saved
+[02:13:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:13:15] [Server thread/INFO]: Unloading server configs...
+[02:13:15] [Server thread/INFO]: Sending config unload event for backpacked.server.toml
