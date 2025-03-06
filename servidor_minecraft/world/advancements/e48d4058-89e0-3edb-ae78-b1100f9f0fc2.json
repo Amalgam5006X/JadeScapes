@@ -3751,9 +3751,21 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/food/candied_orange": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
   "bountifulfares:recipes/food/candied_plum": {
     "criteria": {
       "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/sour_candy": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
     },
     "done": true
   },
@@ -3763,9 +3775,33 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/food/custard": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/passion_custard": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/glowing_custard": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
   "bountifulfares:recipes/food/plum_block": {
     "criteria": {
       "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/cocoa_custard": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
     },
     "done": true
   },
@@ -3775,9 +3811,33 @@
     },
     "done": true
   },
+  "bountifulfares:recipes/food/candy": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
   "bountifulfares:recipes/food/plum_pie": {
     "criteria": {
       "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/candied_lemon": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/ancient_custard": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/bitter_candy": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
     },
     "done": true
   },
