@@ -704,3 +704,7 @@ com.google.gson.JsonParseException: Map entry '/' : Not a JSON object: [{"item":
 [01:30:21] [Server thread/INFO]: Amalgam5006X[/100.96.242.93:51137] logged in with entity id 57 at (2191.9969501170162, 69.5, 2835.300000011921)
 [01:30:21] [Server thread/INFO]: Amalgam5006X joined the game
 [01:30:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[01:41:07] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Creative Mode]
+[01:42:10] [Server thread/INFO]: [Amalgam5006X: Set own game mode to Survival Mode]
+[01:47:09] [Server thread/INFO]: Amalgam5006X was killed
+[01:47:09] [Server thread/INFO]: [Amalgam5006X: Killed Amalgam5006X]
