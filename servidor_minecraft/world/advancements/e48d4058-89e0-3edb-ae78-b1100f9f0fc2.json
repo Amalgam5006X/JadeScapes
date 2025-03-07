@@ -3751,9 +3751,9 @@
     },
     "done": true
   },
-  "bountifulfares:recipes/food/candied_orange": {
+  "bountifulfares:recipes/building_blocks/plum_wood": {
     "criteria": {
-      "has_sugar": "2025-03-06 02:02:17 +0000"
+      "has_log": "2025-03-06 01:54:56 +0000"
     },
     "done": true
   },
@@ -3763,27 +3763,39 @@
     },
     "done": true
   },
-  "bountifulfares:recipes/food/sour_candy": {
-    "criteria": {
-      "has_sugar": "2025-03-06 02:02:17 +0000"
-    },
-    "done": true
-  },
   "bountifulfares:recipes/food/plum_compote_jar": {
     "criteria": {
       "has_plum": "2025-03-06 01:55:06 +0000"
     },
     "done": true
   },
-  "bountifulfares:recipes/food/custard": {
+  "bountifulfares:recipes/food/plum_block": {
+    "criteria": {
+      "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/plum_pie": {
+    "criteria": {
+      "has_plum": "2025-03-06 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/candied_orange": {
     "criteria": {
       "has_sugar": "2025-03-06 02:02:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
+  "bountifulfares:recipes/food/sour_candy": {
     "criteria": {
-      "has_bone_meal": "2025-03-06 02:10:30 +0000"
+      "has_sugar": "2025-03-06 02:02:17 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/custard": {
+    "criteria": {
+      "has_sugar": "2025-03-06 02:02:17 +0000"
     },
     "done": true
   },
@@ -3799,27 +3811,9 @@
     },
     "done": true
   },
-  "bountifulfares:recipes/food/plum_block": {
-    "criteria": {
-      "has_plum": "2025-03-06 01:55:06 +0000"
-    },
-    "done": true
-  },
-  "bountifulfares:recipes/food/orange_block": {
-    "criteria": {
-      "has_orange": "2025-03-06 02:11:18 +0000"
-    },
-    "done": true
-  },
   "bountifulfares:recipes/food/cocoa_custard": {
     "criteria": {
       "has_sugar": "2025-03-06 02:02:17 +0000"
-    },
-    "done": true
-  },
-  "bountifulfares:recipes/building_blocks/plum_wood": {
-    "criteria": {
-      "has_log": "2025-03-06 01:54:56 +0000"
     },
     "done": true
   },
@@ -3829,33 +3823,9 @@
     },
     "done": true
   },
-  "bountifulfares:recipes/food/plum_pie": {
-    "criteria": {
-      "has_plum": "2025-03-06 01:55:06 +0000"
-    },
-    "done": true
-  },
-  "bountifulfares:recipes/food/orange_pie": {
-    "criteria": {
-      "has_orange": "2025-03-06 02:11:18 +0000"
-    },
-    "done": true
-  },
-  "bountifulfares:recipes/food/orange_compote_jar": {
-    "criteria": {
-      "has_orange": "2025-03-06 02:11:18 +0000"
-    },
-    "done": true
-  },
   "bountifulfares:recipes/food/candied_lemon": {
     "criteria": {
       "has_sugar": "2025-03-06 02:02:17 +0000"
-    },
-    "done": true
-  },
-  "bountifulfares:recipes/building_blocks/orange_wood": {
-    "criteria": {
-      "has_log": "2025-03-06 02:11:10 +0000"
     },
     "done": true
   },
@@ -3871,9 +3841,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-03-06 02:10:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2025-03-06 02:10:30 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/building_blocks/orange_wood": {
+    "criteria": {
+      "has_log": "2025-03-06 02:11:10 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/orange_block": {
+    "criteria": {
+      "has_orange": "2025-03-06 02:11:18 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/orange_pie": {
+    "criteria": {
+      "has_orange": "2025-03-06 02:11:18 +0000"
+    },
+    "done": true
+  },
+  "bountifulfares:recipes/food/orange_compote_jar": {
+    "criteria": {
+      "has_orange": "2025-03-06 02:11:18 +0000"
     },
     "done": true
   },
