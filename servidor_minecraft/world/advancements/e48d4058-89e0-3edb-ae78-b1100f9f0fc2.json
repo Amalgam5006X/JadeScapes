@@ -2917,6 +2917,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:enderman": "2025-03-07 02:41:59 +0000",
       "minecraft:witch": "2024-12-28 03:37:38 +0000",
       "minecraft:zombie": "2024-12-28 03:19:38 +0000",
       "minecraft:zombie_villager": "2024-12-28 03:49:31 +0000"
@@ -3875,6 +3876,12 @@
   "bountifulfares:recipes/food/orange_compote_jar": {
     "criteria": {
       "has_orange": "2025-03-06 02:11:18 +0000"
+    },
+    "done": true
+  },
+  "blocks_of_monster_stuff:recipes/misc/ender_block": {
+    "criteria": {
+      "has_ender_pearl": "2025-03-07 02:42:59 +0000"
     },
     "done": true
   },
